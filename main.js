@@ -1,6 +1,6 @@
 // Import Komponen
-import ProfileCard from './components/ProfileCard.js';
-import LoginForm from './components/LoginForm.js';
+import ProfileCard from './components/profileCard.js';
+import LoginForm from './components/loginForm.js';
 
 // Tambahkan komponen ke DOM
 const app = document.getElementById('app');

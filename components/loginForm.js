@@ -1,5 +1,5 @@
-import InputField from './InputField.js';
-import Button from './Button.js';
+import InputField from './inputField.js';
+import Button from './button.js';
 
 export default function LoginForm() {
   const form = document.createElement('form');
