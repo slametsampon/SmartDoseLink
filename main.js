@@ -1,10 +1,18 @@
-// Import Komponen
-import ProfileCard from './components/profileCard.js';
-import LoginForm from './components/loginForm.js';
+import Navbar from './components/navbar.js';
+import HomeContent from './components/homeContent.js';
+import Footer from './components/footer.js';
 
-// Tambahkan komponen ke DOM
-const app = document.getElementById('app');
+function App() {
+  const app = document.getElementById('app');
 
-// Contoh Penggunaan Komponen
-app.appendChild(new ProfileCard('John Doe', 'Web Developer').render());
-app.appendChild(new LoginForm());
+  // Buat dan tambahkan komponen
+  const navbar = Navbar();
+  const homeContent = HomeContent();
+  const footer = Footer();
+
+  app.appendChild(navbar);
+  app.appendChild(homeContent);
+  app.appendChild(footer);
+}
+
+document.addEventListener('DOMContentLoaded', App);
