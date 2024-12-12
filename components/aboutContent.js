@@ -5,7 +5,7 @@ export default function AboutContent() {
   about.innerHTML = `
     <h2 class="text-2xl font-thin text-gray-800 mb-6 pt-6">Smart<span class="text-orange-600 font-bold italic">Dose</span>Link</h2>
     <p class="text-gray-600 leading-relaxed p-3 bg-orange-50 mb-8 rounded-2xl shadow-lg first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-green-800 first-letter:mr-1 first-letter:float-left">
-      Smart~Dose~Link adalah platform inovatif berbasis web yang dirancang untuk memudahkan pengendalian sistem dosing kimia dan nutrisi secara remote. Dengan antarmuka yang intuitif dan teknologi IoT canggih, kami memastikan Anda dapat mengontrol proses dosing dari mana saja, kapan saja.
+      Smart~<span class="text-orange-600 font-bold italic">Dose</span>~Link adalah platform inovatif berbasis web yang dirancang untuk memudahkan pengendalian sistem dosing kimia dan nutrisi secara remote. Dengan antarmuka yang intuitif dan teknologi IoT canggih, kami memastikan Anda dapat mengontrol proses dosing dari mana saja, kapan saja.
     </p>
 
     <h3 class="text-xl font-semibold text-gray-800 mb-3 mt-4">Fitur Utama</h3>
