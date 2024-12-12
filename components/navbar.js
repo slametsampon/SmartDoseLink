@@ -1,10 +1,10 @@
 export default function Navbar() {
   const navbar = document.createElement('nav');
   navbar.className =
-    'bg-blue-600 text-white py-4 px-3 shadow-md fixed top-0 left-0 w-full z-10';
+    'bg-blue-600 text-white py-4 shadow-md fixed top-0 left-0 w-full z-10';
 
   navbar.innerHTML = `
-    <div class="container mx-auto flex justify-between items-center">
+    <div class="container px-3 flex justify-between items-center">
       <a href="/SmartDoseLink">
         <img src="/SmartDoseLink/public/images/private51x51.png" alt="SmartDoseLink">
       </a>
