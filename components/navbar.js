@@ -6,7 +6,7 @@ export default function Navbar() {
   navbar.innerHTML = `
     <div class="container mx-auto flex justify-between items-center">
       <a href="/SmartDoseLink">
-        <img src="../public/images/private51x51.png" alt="SmartDoseLink">
+        <img src="/SmartDoseLink/public/images/private51x51.png" alt="SmartDoseLink">
       </a>
       <ul class="flex space-x-4">
         <li><a href="/SmartDoseLink/pages/dashboard" class="hover:text-gray-200">Dashboard</a></li>
