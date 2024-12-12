@@ -1,7 +1,7 @@
 export default function Navbar() {
   const navbar = document.createElement('nav');
   navbar.className =
-    'bg-blue-600 text-white py-4 shadow-md fixed top-0 left-0 w-full z-10';
+    'bg-blue-600 text-white py-2 shadow-md fixed top-0 left-0 w-full z-10';
 
   navbar.innerHTML = `
     <div class="container px-3 flex justify-between items-center">
