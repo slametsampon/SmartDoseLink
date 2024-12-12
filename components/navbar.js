@@ -5,9 +5,9 @@ export default function Navbar() {
 
   navbar.innerHTML = `
     <div class="container px-1 flex justify-between items-center">
-      <a href="/SmartDoseLink" class="flex flex-row align-text-bottom h-[50px]">
-        <img src="/SmartDoseLink/public/images/logoSmartDoseLink50x50.webp" alt="SmartDoseLink" class="rounded-xl">
-        <div class="px-3 font-sans text-sm font-thin text-white">Smart<span class="font-bold">Dose</span>Link</div>
+      <a href="/SmartDoseLink" class="flex flex-row">
+        <img src="/SmartDoseLink/public/images/logoSmartDoseLink50x50.webp" alt="SmartDoseLink" class="rounded-xl h-[50px]">
+        <div class="inline-block align-bottom px-1 font-sans font-thin text-white">Smart<span class="font-bold text-amber-600">Dose</span>Link</div>
       </a>
       <ul class="flex space-x-4">
         <li><a href="/SmartDoseLink/pages/dashboard" class="hover:text-gray-200">Dashboard</a></li>
