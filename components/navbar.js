@@ -5,7 +5,7 @@ export default function Navbar() {
 
   navbar.innerHTML = `
     <div class="container px-3 flex justify-between items-center">
-      <a href="/SmartDoseLink class="w-[50px] h-[50px]">
+      <a href="/SmartDoseLink" class="w-[50px] h-[50px]">
         <img src="/SmartDoseLink/public/images/logoSmartDoseLink.webp" alt="SmartDoseLink">
       </a>
       <ul class="flex space-x-4">
