@@ -9,9 +9,9 @@ export default function Navbar() {
         <img src="../public/images/private51x51.png" alt="SmartDoseLink">
       </a>
       <ul class="flex space-x-4">
-        <li><a href="/pages/dashboard" class="hover:text-gray-200">Dashboard</a></li>
-        <li><a href="/pages/config" class="hover:text-gray-200">Config</a></li>
-        <li><a href="/pages/about" class="hover:text-gray-200">About</a></li>
+        <li><a href="/pages/dashboard/" class="hover:text-gray-200">Dashboard</a></li>
+        <li><a href="/pages/config/" class="hover:text-gray-200">Config</a></li>
+        <li><a href="/pages/about/" class="hover:text-gray-200">About</a></li>
       </ul>
     </div>
   `;
