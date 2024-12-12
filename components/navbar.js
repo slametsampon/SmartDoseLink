@@ -5,13 +5,13 @@ export default function Navbar() {
 
   navbar.innerHTML = `
     <div class="container mx-auto flex justify-between items-center">
-      <a href="/">
+      <a href="/SmartDoseLink">
         <img src="../public/images/private51x51.png" alt="SmartDoseLink">
       </a>
       <ul class="flex space-x-4">
-        <li><a href="/pages/dashboard/" class="hover:text-gray-200">Dashboard</a></li>
-        <li><a href="/pages/config/" class="hover:text-gray-200">Config</a></li>
-        <li><a href="/pages/about/" class="hover:text-gray-200">About</a></li>
+        <li><a href="/SmartDoseLink/pages/dashboard" class="hover:text-gray-200">Dashboard</a></li>
+        <li><a href="/SmartDoseLink/pages/config" class="hover:text-gray-200">Config</a></li>
+        <li><a href="/SmartDoseLink/pages/about" class="hover:text-gray-200">About</a></li>
       </ul>
     </div>
   `;
