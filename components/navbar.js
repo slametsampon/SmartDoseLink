@@ -4,10 +4,10 @@ export default function Navbar() {
     'bg-blue-600 text-white shadow-md fixed top-0 left-0 w-full z-10';
 
   navbar.innerHTML = `
-    <div class="container px-3 flex justify-between items-center">
-      <a href="/SmartDoseLink" class="rounded-xl flex flex-row">
-        <img src="/SmartDoseLink/public/images/logoSmartDoseLink50x50.webp" alt="SmartDoseLink">
-        <div class="px-3 font-sans text-sm font-thin text-white">Smart<span class="font-bold">Dose</span>Link</div>
+    <div class="container px-1 flex justify-between items-center">
+      <a href="/SmartDoseLink" class="flex flex-row">
+        <img src="/SmartDoseLink/public/images/logoSmartDoseLink50x50.webp" alt="SmartDoseLink" class="rounded-xl">
+        <div class="px-3 font-sans text-sm align-text-bottom font-thin text-white">Smart<span class="font-bold">Dose</span>Link</div>
       </a>
       <ul class="flex space-x-4">
         <li><a href="/SmartDoseLink/pages/dashboard" class="hover:text-gray-200">Dashboard</a></li>
