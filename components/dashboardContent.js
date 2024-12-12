@@ -3,7 +3,7 @@ export default function DashboardContent() {
   main.className = 'flex-1 container mx-auto p-8 text-center pt-20';
 
   main.innerHTML = `
-    <h2 class="text-3xl font-bold text-gray-800">Dashboard Page</h2>
+    <h2 class="text-2xl text-left font-bold text-gray-800">Dashboard Page</h2>
     <p class="text-gray-600 mt-4 underline">
       Under Construction
     </p>
