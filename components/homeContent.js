@@ -4,7 +4,7 @@ export default function HomeContent() {
 
   main.innerHTML = `
     <!-- Overlay Global -->
-    <div class="bg-black/40 min-h-screen text-white">
+    <div class="min-h-screen text-white">
       
       <!-- Header (Sudah Ada) -->
       <header class="py-6 px-10">

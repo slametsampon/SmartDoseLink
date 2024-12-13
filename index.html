@@ -12,13 +12,16 @@
     <link href="./styles/output.css" rel="stylesheet" />
   </head>
   <body
-    class="bg-cover bg-fixed bg-center"
+    class="relative bg-cover bg-fixed bg-center"
     style="
       background-image: url('/SmartDoseLink/public/images/backgroundSmartDoseLink.webp');
     "
   >
     <!-- Root Element -->
-    <div id="app" class="flex flex-col min-h-screen"></div>
+    <div
+      id="app"
+      class="absolute inset-0 bg-black/40 flex flex-col min-h-screen"
+    ></div>
 
     <!-- JavaScript Files -->
     <script type="module" src="./main.js"></script>
