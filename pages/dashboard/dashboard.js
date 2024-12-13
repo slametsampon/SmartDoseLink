@@ -1,18 +1,21 @@
+// Impor Komponen
 import Navbar from '../../components/navbar.js';
 import Footer from '../../components/footer.js';
-import DashboardContent from '../../components/dashboardContent.js';
+import DashboardOverview from '../../components/dashboardOverview.js';
+import DataMonitoring from '../../components/dataMonitoring.js';
+import SensorStatus from '../../components/sensorStatus.js';
+import ControlPanel from '../../components/controlPanel.js';
+import Notifications from '../../components/notification.js';
 
-function App() {
-  const app = document.getElementById('app');
+// Render Aplikasi
+const app = document.getElementById('app');
 
-  // Buat dan tambahkan komponen
-  const navbar = Navbar();
-  const dashboardContent = DashboardContent();
-  const footer = Footer();
-
-  app.appendChild(navbar);
-  app.appendChild(dashboardContent);
-  app.appendChild(footer);
-}
-
-document.addEventListener('DOMContentLoaded', App);
+app.append(
+  Navbar(),
+  DashboardOverview(),
+  DataMonitoring(),
+  SensorStatus(),
+  ControlPanel(),
+  Notifications(),
+  Footer()
+);
