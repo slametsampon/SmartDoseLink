@@ -38,11 +38,6 @@ export default function HomeContent() {
         <button class="btn-primary px-3 py-1 bg-blue-600 rounded-xl hover:bg-blue-800">Mulai Sekarang</button>
       </section>
 
-      <!-- Footer -->
-      <footer class="py-5 px-6 text-center text-white">
-        <p class="text-sm">© 2024 SmartDoseLink. All rights reserved.</p>
-      </footer>
-
     </div>
   `;
   return main;
