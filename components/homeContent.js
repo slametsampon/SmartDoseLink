@@ -13,7 +13,7 @@ export default function HomeContent() {
 
       <!-- Hero Section -->
       <section class="mb-3 flex items-center justify-center text-center">
-          <p class="mt-6 text-xl">Dengan teknologi IoT canggih dan pengoperasian remote, hasil agribisnis optimal kini dalam genggaman Anda.</p>
+          <p class="pt-2 font-semibold italic">Dengan teknologi IoT canggih dan pengoperasian remote, hasil agribisnis optimal kini dalam genggaman Anda.</p>
       </section>
 
       <!-- Fitur Utama -->
